@@ -40,8 +40,18 @@ const Home = () => {
             {/* Scrolling Text */}
             <div className="col-span-2 bg-card p-3 text-sm rounded-2xl">
               <marquee behavior="smooth">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa,
-                molestias!
+                <p class="relative whitespace-nowrap bg-transparent py-2 text-base font-medium">
+  <span class="inline-block animate-marquee  text-white/70">
+    I'm a full-stack developer • MERN stack • Web developer —
+    <span class=" text-primary px-2 py-0.5 rounded-full font-semibold ml-2">
+      I'm available for full-time roles
+    </span>
+    &nbsp; • &nbsp; I'm a full-stack developer • MERN stack • Web developer —
+    <span class=" text-primary px-2 py-0.5 rounded-full font-semibold ml-2">
+      I'm available for full-time roles
+    </span>
+  </span>
+</p>
               </marquee>
             </div>
 
