@@ -30,7 +30,7 @@ console.log(project)
 
         {/* Title + Meta */}
         <div>
-          <h1 className="text-3xl font-bold">{project[0].title}</h1>
+          <h1 className="text-xl md:text-2xl font-semibold">{project[0].title}</h1>
           <div className="flex items-center gap-2 text-gray-400 text-sm my-4">
             <CalendarIcon className="w-4 h-5  text-gray-400" />
             <span className="text-xs">{project[0].date}</span>
@@ -73,7 +73,7 @@ console.log(project)
         {/* Description */}
         <div className="bg-gradient-to-br from-[#1a1a1a] to-[#0f0f0f] p-6 rounded-2xl shadow-md">
           <h2 className="text-xl font-semibold mb-3 flex gap-2"><CubeTransparentIcon className="size-7 text-white"/> Project Details</h2>
-          <p className="text-white/60 leading-relaxed whitespace-pre-line ">
+          <p className="text-white/60 leading-relaxed whitespace-pre-line text-sm lg:text-lg ">
             {project[0].description}
           </p>
         </div>
