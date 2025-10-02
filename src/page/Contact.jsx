@@ -15,13 +15,26 @@ const Contact = () => {
 
             {/* Social Links */}
             <div className="flex justify-start gap-4">
-              {["/linked.svg", "/github.svg", "/web.svg"].map((src, i) => (
+              {[ 
+                {
+                  icon:"/github.svg",
+                  links:"https://github.com/SADHASIVAM-VM"
+                },
+                {
+                  icon:"/linked.svg",
+                  links:"https://www.linkedin.com/in/sadhasivamvm/"
+                },
+                {
+                  icon:"/web.svg",
+                  links:"https://sadhasivam.vercel.app"
+                },
+                ].map((src, i) => (
                 <a
                   key={i}
-                  href="#"
+                  href={src.links}
                   className="bg-gradient-to-r from-[#2a2a2a] to-[#1a1a1a] p-3 rounded-full hover:scale-110 transition"
                 >
-                  <img src={src} alt="social" className="w-6 h-6" />
+                  <img src={src.icon} alt="social" className="w-6 h-6" />
                 </a>
               ))}
             </div>

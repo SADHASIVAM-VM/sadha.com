@@ -19,7 +19,7 @@ import p5 from '../assets/samepleImage/p5.png'
     image: lf,
     tags: ["React", "Node.js", "MongoDB", "Tailwind CSS","Firebase", "Supabase", "shadCN"],
     github: "https://github.com/SADHASIVAM-VM",
-    live: "#",
+    live: "",
     date: "2024",
   },
   {
@@ -30,7 +30,7 @@ import p5 from '../assets/samepleImage/p5.png'
     image: buz,
     tags: ["React", "Tailwind CSS","Firebase", "Supabase", "shadCN"],
     github: "https://github.com/SADHASIVAM-VM",
-    live: "#",
+    live: "https://bkty.vercel.app/",
     date: "2025",
   },
   {
@@ -41,7 +41,7 @@ import p5 from '../assets/samepleImage/p5.png'
     image: hireone,
     tags: ["React", "Express.js", "PostgreSQL", "Redux","Clerk", "Supabase", "shadCN"],
     github: "https://github.com/SADHASIVAM-VM",
-    live: "#",
+    live: "",
     date: "2025",
   },
   {
@@ -63,7 +63,7 @@ import p5 from '../assets/samepleImage/p5.png'
     image: aura,
     tags: ["React", "Express", "JWT", "Razorpay", "Supabase", "shadCN"],
     github: "https://github.com/SADHASIVAM-VM",
-    live: "#",
+    live: "",
     date: "2025",
   },
   {
@@ -74,7 +74,7 @@ import p5 from '../assets/samepleImage/p5.png'
     image: p5,
     tags: ["React.js", "Framer Motion", "Tailwind CSS"],
     github: "https://github.com/SADHASIVAM-VM",
-    live: "https://4k-one.vercel.app/",
+    live: "https://sadhasivam.vercel.app",
     date: "2024",
   },
   {
@@ -85,7 +85,7 @@ import p5 from '../assets/samepleImage/p5.png'
     image: rental,
     tags: ["React", "Styled Components", "React Router"],
     github: "https://github.com/SADHASIVAM-VM",
-    live: "#",
+    live: "",
     date: "2024",
   },
   {
@@ -96,7 +96,7 @@ import p5 from '../assets/samepleImage/p5.png'
     image: yogix,
     tags: ["React", "tailwind","Framer-Motion", "Gform"],
     github: "https://github.com/SADHASIVAM-VM",
-    live: "#",
+    live: "",
     date: "2025",
   },
   {
@@ -107,7 +107,7 @@ import p5 from '../assets/samepleImage/p5.png'
     image: github,
     tags: ["React", "API", "Tailwind CSS", "Framer Motion"],
     github: "https://github.com/SADHASIVAM-VM",
-    live: "#",
+    live: "",
     date: "2023",
   },
 ];

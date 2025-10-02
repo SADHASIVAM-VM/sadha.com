@@ -50,15 +50,18 @@ console.log(project)
 
         {/* Links */}
         <div className="flex gap-4">
+         {
+          project[0].live &&  
           <a
-            href={project[0].live}
+            href={project[0]?.live}
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center text-xs bg-gray-800 hover:bg-gray-700  gap-2 px-4 py-2 rounded-lg transition"
           >
-            Live Demo
+            Live
             <ArrowTopRightOnSquareIcon className="w-4 h-4" />
           </a>
+         }
           <a
             href={project[0].github}
             target="_blank"
@@ -78,7 +81,7 @@ console.log(project)
           </p>
         </div>
       </div>
-    </div>
+   </div>
   );
 };
 

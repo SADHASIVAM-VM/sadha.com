@@ -38,9 +38,9 @@ const Home = () => {
           {/* Scrolling Text + Credentials + Projects */}
           <div className="grid gap-6 md:grid-cols-2">
             {/* Scrolling Text */}
-            <div className="col-span-2 bg-card p-3 text-sm rounded-2xl">
-              <marquee behavior="smooth">
-                <p class="relative whitespace-nowrap bg-transparent py-2 text-base font-medium">
+            <div className="col-span-2  bg-card overflow-hidden p-3 text-sm rounded-2xl">
+              
+                <p class="relative text_scroll flex whitespace-nowrap bg-transparent py-2 text-base font-medium">
                 <span class="inline-block animate-marquee  text-white/70">
                   I'm a full-stack developer • MERN stack • Web developer —
                   <span class=" text-primary px-2 py-0.5 rounded-full font-semibold ml-2">
@@ -50,9 +50,10 @@ const Home = () => {
                   <span class=" text-primary px-2 py-0.5 rounded-full font-semibold ml-2">
                     I'm available for full-time roles
                   </span>
+                
                 </span>
               </p>
-              </marquee>
+              
             </div>
 
             {/* Credentials */}

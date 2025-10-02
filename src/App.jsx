@@ -8,13 +8,14 @@ import Footer from "./components/Footer";
 import Contact from "./page/Contact";
 import { BrowserRouter, Route, Router, Routes } from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
+import CustomCursor from "./components/CustomCusor";
 function App() {
   useEffect(() => {
   window.scrollTo({ top: 0, behavior: "smooth" });
 }, [location.pathname]);
   return (
     <>
-   
+   <CustomCursor/>
    <div className="max-w-7xl mx-auto">
      {/* Navbar */}
       <Navbar />
